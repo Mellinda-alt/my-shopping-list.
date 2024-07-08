@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-//This function handles new items in ty
-
 function shoppingList(toShop) {
   let list = document.createElement("li");
   let purchase = document.createElement("button");

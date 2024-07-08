@@ -7,7 +7,6 @@ body {
 h1 {
   color: #7e9680;
   text-align: center;
-  
 }
 
 h1:hover {
@@ -68,21 +67,9 @@ input {
   color: #eab;
 }
 
-/* 
-button { 
-  color: #acd1af;
-  height: auto;
-  width: auto;
-  font-size: 20px;
-  border: none;
-  border-radius: 10px;
-  margin-left: 10px;
-} */
-
 #listitems {
   color: #3b270c;
   font-size: 25px;
   display: flex;
   justify-content: space-between;
 }
-
