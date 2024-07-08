@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1600724560/photo/beautiful-wedding-bridal-dresses-on-mannequin-in-showroom-in-mall.jpg?s=612x612&w=0&k=20&c=UGwPkjiaQdpZoSahn68WzWb5Cd0AkyEd8kTLZqcRmCo=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #7e9680;
+  text-align: center;
+  
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+#add_button {
+  color: #79616f;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#cancel {
+  color: #79616f;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+input {
+  height: auto;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #79616f;
+}
+
+#purchase_btn {
+  color: #1b998b;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#purchase_btn:hover {
+  background-color: #7e9680;
+  color: #eab;
+}
+
+#remove_btn {
+  color: #1b998b;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#remove_btn:hover {
+  background-color: #7e9680;
+  color: #eab;
+}
+
+/* 
+button { 
+  color: #acd1af;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+} */
+
+#listitems {
+  color: #3b270c;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
