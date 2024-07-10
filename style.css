@@ -3,15 +3,34 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@keyframes slide {
+  from {
+    transform: translateX(+100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.daz {
+  white-space: nowrap;
+  animation: 10s slide infinite linear;
+}
+.first {
+  margin-right: 30px;
+}
+
+.second{
+  margin-left: 30px;
+}
 
 h1 {
-  color: #7e9680;
+  display: inline-block;
+  color: #235347;
   text-align: center;
 }
 
-h1:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
+.daz:hover {
+  animation-play-state: paused;
 }
 
 #add_button {
